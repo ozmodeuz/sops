@@ -1,0 +1,8 @@
+keys:
+  - &oz age1xrc695unhkkjdre9jhd30r3lq6g8s74qvszndmvhe7f4yxvk25fq3wjys4
+  - &ozpc age18um39x0qekzq40562rz9qpng3pwaa7tdkrp8h6uy9frxh3gan4js4xfpj4
+creation_rules:
+  - path_regex: secrets.yaml$
+    key_groups:
+      - age:
+          - *oz
